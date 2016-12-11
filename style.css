@@ -17,10 +17,7 @@
     width: 100%;
     height: auto;
    }
-   .container{
-    width: 100%;
-    height: auto;
-   }
+   
    .tabs__link {
    	color: black;
    	text-decoration: none;
@@ -46,8 +43,14 @@
     h2{
 
     }
-    .tabs__item{
+    /*.tabs__item{
       height:100%
+          }*/
+          .tabs__item{
+            display: none;
+          }
+  .activ{
+      display: block;
     }
 
     
